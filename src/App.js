@@ -9,10 +9,8 @@ import './App.css';
 function App() {
   return (
     <div className="app">
-
       <Nav />
       <Banner />
-
       <Row title="Netflix Original" fetchUrl={request.fetchNetflixOriginal} isLarge={true} />
       <Row title="Trending Now" fetchUrl={request.fetchTrending} />
       <Row title="Top Rated" fetchUrl={request.fetchTopRated} />
